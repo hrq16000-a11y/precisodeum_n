@@ -14,7 +14,6 @@ export type Database = {
   }
   public: {
     Tables: {
-<<<<<<< HEAD
       ad_slot_assignments: {
         Row: {
           active: boolean
@@ -1612,7 +1611,6 @@ export type Database = {
       }
     }
     Functions: {
-      get_rss_import_headers: { Args: never; Returns: Json }
       get_user_sponsor_id: { Args: { _user_id: string }; Returns: string }
       has_role: {
         Args: {
@@ -1642,18 +1640,6 @@ export type Database = {
     }
     Enums: {
       app_role: "admin" | "moderator" | "user"
-=======
-      [_ in never]: never
-    }
-    Views: {
-      [_ in never]: never
-    }
-    Functions: {
-      [_ in never]: never
-    }
-    Enums: {
-      [_ in never]: never
->>>>>>> 14931d0e8b12acb8851d060f4b486b51b40670df
     }
     CompositeTypes: {
       [_ in never]: never
@@ -1780,12 +1766,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-<<<<<<< HEAD
     Enums: {
       app_role: ["admin", "moderator", "user"],
     },
-=======
-    Enums: {},
->>>>>>> 14931d0e8b12acb8851d060f4b486b51b40670df
   },
 } as const
