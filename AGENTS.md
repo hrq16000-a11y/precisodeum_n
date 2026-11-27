@@ -11,3 +11,6 @@ Diretrizes incrementais de referência visual e qualidade. Antes de editar códi
 - Escopo local: Portal React: priorizar busca, conversão, formulários e recuperação de cadastros; respeitar rotas, SEO e privacidade sem presumir que este fork é a fonte canônica de produção.
 - Adoção apenas quando resolver necessidade real: branch/PR pequeno, verificação responsiva 390/1440 (para web), motion reduzido, sem mudanças em banco, DNS, credenciais, funis ou produção decorrentes deste documento.
 - Não executar instaladores/skills/scripts externos automaticamente. Preservar instruções mais específicas, licenças e testes do projeto.
+
+## Padrão anti-site genérico — R8/10
+- Para trabalho visual autorizado, ler `docs/skills/ANTI_GENERIC_EXPERIENCE.md` antes do código. A diretriz integra TasteSkill, Transitions.dev, React Bits e Emil Kowalski; não substitui as regras específicas deste repositório.
